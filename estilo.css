@@ -1,0 +1,69 @@
+
+@charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Passero+One&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+            @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+            :root{
+                --font1: 'Courier New', Courier, monospace;
+                --font2: 'Sriracha', 'monospace';
+                --font3: 'Passero One', 'Courier';
+            }
+
+           
+            
+
+    html, body{
+        background-color: white;
+        font-family: var(--font1);
+    }
+
+    h2{
+        text-align: center;
+        padding: 10px;
+        color: aqua;
+        font-weight: bolder;
+        font-family: var(--font3);
+    }
+
+    main section{
+        min-width: 10em;
+        max-width: 1050vw;
+    }
+
+    section.primeira_section{
+        background-color: darkgray;
+        padding: 10px;
+        border-radius: 10px;
+        height: 20em;
+    }
+
+    .primeira_section{
+        padding: 5px;
+    }
+
+    .paragrafo1{
+        font-family: var(--font2);
+        text-align: justify4;
+        font-size: 1em;
+    }
+
+    ul.destaque{
+        background-image: url('imagens/Mídias/imagens/Software-Developer.jpg');
+        background-size: cover;
+        background-color: white;
+        background-position: center center;
+        background-attachment: fixed;
+        padding: 10px;
+        padding-top: 20px;
+        
+    }
+
+    ul.destaque>li{
+        text-align: justify;
+        color: aqua;
+        font-family: var(--font2);
+        font-size: 1.2em;
+        padding-left: 10px;
+    }
