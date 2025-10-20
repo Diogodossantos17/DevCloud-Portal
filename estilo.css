@@ -100,3 +100,19 @@
         line-break: auto;
 
     }
+
+
+    footer{
+        background-color: black;
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+
