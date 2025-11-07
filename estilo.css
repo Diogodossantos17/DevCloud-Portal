@@ -12,11 +12,12 @@
             }
 
            
-            
+    
 
     html, body{
         background-color: white;
         font-family: var(--font1);
+         letter-spacing:0em;
     }
 
     h1#cabeçalho{
@@ -27,6 +28,8 @@
         font-family: var(--font1);
         border-radius: 10px;
         
+
+       ;
     }
 
     h2{
@@ -56,7 +59,7 @@
     .paragrafo1{
         font-family: var(--font2);
         text-align: justify4;
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     ul.destaque{
@@ -79,7 +82,7 @@
         text-align: justify;
         color: aqua;
         font-family: var(--font2);
-        font-size: 1.2em;
+        font-size: 1vw;
         padding-left: 10px;
     }
 
@@ -91,13 +94,15 @@
     }
 
     section.IA{
-        font-family: var(--font1);
+       
+        font-family: var(--font2);
         text-align: justify;
         font-size: 1.2em;
         font-weight: bolder;
         color: white;
-        line-height: 2em;
-        line-break: auto;
+        line-height: 5vh;
+        line-break:normal
+        
 
     }
 
