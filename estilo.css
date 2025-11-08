@@ -12,24 +12,37 @@
             }
 
            
-    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
 
     html, body{
         background-color: white;
         font-family: var(--font1);
-         letter-spacing:0em;
+
     }
 
-    h1#cabeçalho{
+    header{
+        position: sticky;
         background-color: black;
-        padding: 5px;
+        padding: 20px;
         color: white;
         text-align: center;
         font-family: var(--font1);
-        border-radius: 10px;
+        border-radius: 1px;
         
 
-       ;
+       top: 0px;
+    }
+
+    menu > ul,  li{
+        display: inline;
+    }
+
+    menu li, a{
+    text-decoration: none;
+    color: aqua;
     }
 
     h2{
@@ -37,7 +50,8 @@
         padding: 10px;
         color: aqua;
         font-weight: bolder;
-        font-family: var(--font3);
+        text-align: center;
+        /*font-family: var(--font3);*/
     }
 
     main section{
@@ -47,8 +61,7 @@
 
     section.primeira_section{
         background-color: darkgray;
-        padding: 10px;
-        border-radius: 10px;
+        padding: 30px;
         height: 20em;
     }
 
@@ -57,9 +70,12 @@
     }
 
     .paragrafo1{
-        font-family: var(--font2);
+        /*font-family: var(--font3);*/
+        font-family: Arial, Helvetica, sans-serif;
         text-align: justify4;
         font-size: 1rem;
+        display: inline-block;
+        margin: auto;
     }
 
     ul.destaque{
@@ -86,7 +102,16 @@
         padding-left: 10px;
     }
 
-    section.IA{
+    h2{
+        padding-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aquamarine;
+        display: inline;
+        margin: auto;
+        text-align: center;
+    }
+
+   section.IA{
         padding: 20px;
         background-image: url('imagens/Mídias/imagens/ebp_blog_ia-intelligence-articifielle-aide-entreprise.webp');
         background-size: cover;
@@ -109,10 +134,8 @@
 
     footer{
         background-color: black;
-        padding: 10px;
-        margin: 10px;
+        padding: 15px; 
         color: white;
-        border-radius: 10px;
         text-align: center;
     }
 
